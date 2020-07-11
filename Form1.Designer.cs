@@ -68,7 +68,6 @@
             // MenuItemAddWebsite
             // 
             this.MenuItemAddWebsite.Name = "MenuItemAddWebsite";
-            this.MenuItemAddWebsite.Margin = new System.Windows.Forms.Padding(0, 8, 0, 8);
             this.MenuItemAddWebsite.Size = new System.Drawing.Size(180, 40);
             this.MenuItemAddWebsite.Text = "添加网站";
             this.MenuItemAddWebsite.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
@@ -77,7 +76,6 @@
             // MenuItemAddType
             // 
             this.MenuItemAddType.Name = "MenuItemAddType";
-            this.MenuItemAddType.Margin = new System.Windows.Forms.Padding(0, 8, 0, 8);
             this.MenuItemAddType.Size = new System.Drawing.Size(180, 40);
             this.MenuItemAddType.Text = "添加类别";
             this.MenuItemAddType.Click += new System.EventHandler(this.MenuItemAddType_Click);
@@ -96,7 +94,6 @@
             this.ToolStripMenuItemType_default.Checked = true;
             this.ToolStripMenuItemType_default.CheckState = System.Windows.Forms.CheckState.Checked;
             this.ToolStripMenuItemType_default.Name = "ToolStripMenuItemType_default";
-            this.ToolStripMenuItemType_default.Margin = new System.Windows.Forms.Padding(0, 8, 0, 8);
             this.ToolStripMenuItemType_default.Size = new System.Drawing.Size(116, 38);
             this.ToolStripMenuItemType_default.Text = "默认";
             this.ToolStripMenuItemType_default.Click += new System.EventHandler(this.ToolStripMenuItemType_Click);
